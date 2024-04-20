@@ -1,9 +1,11 @@
-config { type : "table", }
-select 1 from dataform.number
+config { type : "table", 
+         schema : "dataform"}
+
+select 1 as number
 union All
-select 2 from dataform.number
+select 2 as number
 union All
-select 3 from dataform.number
+select 3 as number
 union All
-select 4 from dataform.number
+select 4 as number
 

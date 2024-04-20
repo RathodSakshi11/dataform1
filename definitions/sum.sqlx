@@ -1,0 +1,3 @@
+config { type : "table", 
+         schema : "dataform"}
+select sum(number) as total from ${ref("source")}
