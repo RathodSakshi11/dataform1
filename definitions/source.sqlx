@@ -1,11 +1,16 @@
-config { type : "table", 
-         schema : "dataform"}
+config {
+    type: "table",
+    schema: "dataform"
+}
 
-select 1 as number
-union All
-select 2 as number
-union All
-select 3 as number
-union All
-select 4 as number
-
+SELECT
+  1 AS number
+UNION ALL
+SELECT
+  2 AS number
+UNION ALL
+SELECT
+  3 AS number
+UNION ALL
+SELECT
+  4 AS number

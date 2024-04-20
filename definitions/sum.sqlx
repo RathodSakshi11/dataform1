@@ -1,3 +1,9 @@
-config { type : "table", 
-         schema : "dataform"}
-select sum(number) as total from ${ref("source")}
+config {
+    type: "table",
+    schema: "dataform"
+}
+
+SELECT
+  SUM(number) AS total
+FROM
+  ${ref("source")}
