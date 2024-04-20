@@ -1,0 +1,16 @@
+config {
+    type : "table",
+    tags : ["fav","least_liked"],
+    name : "fruit_table"
+}
+select "apple" as fruit , 3 as count
+union all
+select "banana" as fruit , 7 as count
+union all
+select "grapes" as fruit , 4 as count
+union all
+select "watermelon" as fruit , 5 as count
+union all
+select "mango" as fruit , 1 as count
+union all
+select "chikkoo" as fruit , 8 as count

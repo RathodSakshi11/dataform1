@@ -1,0 +1,6 @@
+config {
+    type : "operations",
+    tags : ["fav"],
+    dependencies : ["fruit_table"]
+}
+delete from dataform.fruit_table where fruit = 'apple'
