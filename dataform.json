@@ -3,6 +3,6 @@
   "assertionSchema": "dataform_assertions",
   "warehouse": "bigquery",
   "defaultDatabase": "c4ds-gcp",
-  "defaultLocation": "us-central1"
+  "defaultLocation": "us"
 }
     

@@ -1,0 +1,9 @@
+config { type : "table", }
+select 1 from dataform.number
+union All
+select 2 from dataform.number
+union All
+select 3 from dataform.number
+union All
+select 4 from dataform.number
+
